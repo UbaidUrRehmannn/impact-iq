@@ -1,19 +1,19 @@
 import React from "react";
-import Navbar from "../../components/Navbar/navbar";
+import Navbar from "../components/Navbar/navbar";
 
-import IntroWithSlider from "../../components/Intro-with-slider/intro-with-slider";
-import AboutUs from "../../components/About-us/about-us";
-import Services from "../../components/Services/services";
-import Works from "../../components/Works/works";
-import Numbers from "../../components/Numbers/numbers";
-import VideoWithTestimonials from "../../components/Video-with-testimonials/video-with-testimonials";
-import SkillsCircle from "../../components/Skills-circle/skills-circle";
-import Clients from "../../components/Clients/clients";
-import Blogs1 from "../../components/blogs/Blogs1/blogs1";
-import appData from '../../data/app.json'
-import CallToAction from "../../components/Call-to-action/call-to-action";
-import Footer from "../../components/Footer/footer";
-import LightTheme from "../../layouts/Light";
+import IntroWithSlider from "../components/Intro-with-slider/intro-with-slider";
+import AboutUs from "../components/About-us/about-us";
+import Services from "../components/Services/services";
+import Works from "../components/Works/works";
+import Numbers from "../components/Numbers/numbers";
+import VideoWithTestimonials from "../components/Video-with-testimonials/video-with-testimonials";
+import SkillsCircle from "../components/Skills-circle/skills-circle";
+import Clients from "../components/Clients/clients";
+import Blogs1 from "../components/blogs/Blogs1/blogs1";
+import appData from '../data/app.json'
+import CallToAction from "../components/Call-to-action/call-to-action";
+import Footer from "../components/Footer/footer";
+import LightTheme from "../layouts/Light";
 
 const Homepage = () => {
   const fixedSlider = React.useRef(null);

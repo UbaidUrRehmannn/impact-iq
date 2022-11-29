@@ -2,8 +2,13 @@
     {
         "id": 1,
         "icon": "pe-7s-paint-bucket",
-        "title": "Graphic Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "title": "Amazon Marketing Services:",
+        "content1": "Amazon SEO.",
+        "content2": "Advertising & PPC For amazon.",
+        "content3": "Sponsored Product ads.",
+        "content4": "Sponsored Brand ads.",
+        "content5": "Sponsored Display ads.",
+        "buttontext": "VIEW PPC SERVICES"
     },
     {
         "id": 2,
@@ -11,6 +16,6 @@
         "title": "Web & Mobile Design",
         "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
     }
-    
+
    
 ]

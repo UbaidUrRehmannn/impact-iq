@@ -12,4 +12,7 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  experimental: {
+    forceSwcTransforms: true,
+  },
 };

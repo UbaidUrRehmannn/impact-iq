@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import featuresData from "../../data/sections/features.json";
 
 const Services = ({ style, lines }) => {
@@ -13,11 +14,11 @@ const Services = ({ style, lines }) => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
+                Our services
               </h6>
-              <h3 className="wow color-font">
+              {/* <h3 className="wow color-font">
                 We are a new digital product development agency
-              </h3>
+              </h3> */}
             </div>
           </div>
         </div>
@@ -43,7 +44,17 @@ const Services = ({ style, lines }) => {
                     </div>
                     <div className="cont">
                       <h6>{feature.title}</h6>
-                      <p>{feature.content}</p>
+                      <p>{feature.content1}</p>
+                      <p>{feature.content2}</p>
+                      <p>{feature.content3}</p>
+                      <p>{feature.content4}</p>
+                      <p>{feature.content5}</p>
+                      
+                      <Link href="/about/about-dark">
+                        <a className="butn bord curve mt-30">
+                          <span>{feature.buttontext}</span>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -52,7 +63,7 @@ const Services = ({ style, lines }) => {
               featuresData.slice(0, 3).map((feature) => (
                 <div
                   key={feature.id}
-                  className="col-lg-4 wow fadeInLeft"
+                  className="col-lg-6 wow fadeInLeft"
                   data-wow-delay=".5s"
                 >
                   <div className="item-box md-mb50">
@@ -64,12 +75,7 @@ const Services = ({ style, lines }) => {
               ))}
         </div>
       </div>
-      {lines ? (
-        <>
-          <div className="line top left"></div>
-          <div className="line bottom right"></div>
-        </>
-      ) : null}
+      
     </section>
   );
 };
