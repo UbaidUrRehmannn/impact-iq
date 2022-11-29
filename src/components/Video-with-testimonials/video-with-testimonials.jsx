@@ -27,8 +27,8 @@ const VideoWithTestimonials = () => {
         data-overlay-dark="5"
       >
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
+          <div style={{ display: "block" }} className="row">
+            {/* <div className="col-lg-6">
               <div className="vid-area">
                 <span className="text">Watch Video</span>
                 <div className="vid-icon">
@@ -55,8 +55,8 @@ const VideoWithTestimonials = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-5 offset-lg-1">
+            </div> */}
+            <div className="col-lg-12 ">
               <div className="testim-box">
                 <div className="head-box">
                   <h6 className="wow fadeIn" data-wow-delay=".5s">
@@ -73,9 +73,10 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      The greatest benefit I have seen so far since working with
+                      eComXelerators; I have freed up a lot of my time so I can
+                      focus on the parts of my business that need my direct
+                      attention, which will enable growth.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -87,7 +88,7 @@ const VideoWithTestimonials = () => {
                         <div className="author">
                           <h6 className="author-name ">Alex Regelman</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Ecommerce Seller
                           </span>
                         </div>
                       </div>
@@ -95,9 +96,10 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      I found them very helpful, professional and hard working.
+                      I would recommend them to anyone that needs some push in
+                      the right direction… or if you need some time off and want
+                      to leave your account in good hands.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -107,19 +109,18 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
+                          <h6 className="author-name ">Karma Organic</h6>
+                          <span className="author-details">Business Owner</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      I am very impressed with Urtasker. They have helped me
+                      grow my business in a very short time with PPC campaigns
+                      and listing optimization. The prices are very reasonable
+                      for knowledge they have on Amazon.
                     </p>
                     <div className="info">
                       <div className="img">
@@ -129,10 +130,8 @@ const VideoWithTestimonials = () => {
                       </div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
+                          <h6 className="author-name ">Yona Smith</h6>
+                          <span className="author-details">Business Owner</span>
                         </div>
                       </div>
                     </div>

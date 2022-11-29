@@ -26,7 +26,7 @@ const Numbers = () => {
           </div>
           <div className="row">
             {funFactDate.map((item) => (
-              <div key={item.id} className="col-md-4">
+              <div key={item.id} className="col-md-3">
                 <div className="item no-bord sm-mb50">
                   <span className={`icon ${item.icon}`}></span>
                   <h3 className="">
@@ -34,10 +34,11 @@ const Numbers = () => {
                     <CountUp redraw={true} end={item.value} duration="3">
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
-                          <span className="count" ref={countUpRef} />
+                          <span className="count" ref={countUpRef}  /> 
                         </VisibilitySensor>
                       )}
                     </CountUp>
+                    <span className='count'> {item.numberfront}</span>
                   </h3>
                   <Split>
                     <p className="wow txt words chars splitting" data-splitting>

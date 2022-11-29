@@ -6,11 +6,12 @@ import AboutUs from "../components/About-us/about-us";
 import Services from "../components/Services/services";
 import Works from "../components/Works/works";
 import Numbers from "../components/Numbers/numbers";
+import Testimonials from "../components/Testimonials/testimonials";
 import VideoWithTestimonials from "../components/Video-with-testimonials/video-with-testimonials";
 import SkillsCircle from "../components/Skills-circle/skills-circle";
 import Clients from "../components/Clients/clients";
 import Blogs1 from "../components/blogs/Blogs1/blogs1";
-import appData from '../data/app.json'
+import appData from "../data/app.json";
 import CallToAction from "../components/Call-to-action/call-to-action";
 import Footer from "../components/Footer/footer";
 import LightTheme from "../layouts/Light";
@@ -29,7 +30,6 @@ const Homepage = () => {
       if (MainContent.current) {
         MainContent.current.style.marginTop = slidHeight + "px";
       }
-      
     }, 1000);
     var navbar = navbarRef.current,
       logo = logoRef.current;
@@ -50,19 +50,24 @@ const Homepage = () => {
   }, [fixedSlider, MainContent, navbarRef]);
   return (
     <LightTheme>
-      
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <AboutUs />
         <Services />
-        <Works />
+        {/* <Works /> */}
+        {/* <Testimonials /> */}
         <Numbers />
         <VideoWithTestimonials />
-        <SkillsCircle theme="light" />
+        {/* <SkillsCircle theme="light" /> */}
+        {/* <div style={{marginTop: "4rem"}}>
         <Clients theme="light" />
+
+        </div> */}
+        <div style={{ marginTop: "4rem" }}>
+          <CallToAction />
+        </div>
         <Blogs1 />
-        <CallToAction />
         <Footer />
       </div>
     </LightTheme>

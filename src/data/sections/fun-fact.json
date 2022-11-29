@@ -1,19 +1,34 @@
-[{
+[
+  {
     "id": 1,
     "icon": "pe-7s-smile",
-    "content": "People who are commited to their management tasks.",
-    "value": "2400"
-},
-{
+    "content": "Managed Brand.",
+    "numberfront": "M+",
+
+    "value": "150"
+  },
+  {
     "id": 2,
     "icon": "pe-7s-portfolio",
-    "content": "Signed projects that have been confirmed complete!",
-    "value": "133"
-},
-{
+    "content": "Under Management",
+    "numberfront": "+",
+
+    "value": "50"
+  },
+  {
     "id": 3,
     "icon": "pe-7s-medal",
-    "content": "International awards and cups for design projects.",
-    "value": "46"
-}
+    "content": "Product Launches.",
+    "numberfront": "+",
+
+    "value": "150"
+  },
+  {
+    "id": 4,
+    "icon": "pe-7s-medal",
+    "content": "Passionate People.",
+    "numberfront": "+",
+
+    "value": "30"
+  }
 ]

@@ -13,9 +13,14 @@
     {
         "id": 2,
         "icon": "pe-7s-phone",
-        "title": "Web & Mobile Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
-    }
+        "title": "Brand Management Services:",
+        "content1": "Finding Profitable Products.",
+        "content2": "Product Launches.",
+        "content3": "Amazon Product Ranking.",
+        "content4": "Listing Optimization.",
+        "content5": "EBC / A+ Content.",
+        "buttontext": "VIEW MANAGEMENT SERVICES"
 
+    }
    
 ]

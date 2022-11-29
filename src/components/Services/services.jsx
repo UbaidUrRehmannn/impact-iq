@@ -23,59 +23,44 @@ const Services = ({ style, lines }) => {
           </div>
         </div>
         <div className="row">
-          {style === "4item"
-            ? featuresData.map((feature) => (
-                <div
-                  key={feature.id}
-                  className="col-lg-6 wow fadeInLeft"
-                  data-wow-delay={`${
-                    feature.id == 1
-                      ? ".5"
-                      : feature.id === 2
-                      ? ".7"
-                      : feature.id === 3
-                      ? ".9"
-                      : "1.1"
-                  }s`}
-                >
-                  <div className="item-box">
-                    <div>
-                      <span className={`icon ${feature.icon}`}></span>
-                    </div>
-                    <div className="cont">
-                      <h6>{feature.title}</h6>
-                      <p>{feature.content1}</p>
-                      <p>{feature.content2}</p>
-                      <p>{feature.content3}</p>
-                      <p>{feature.content4}</p>
-                      <p>{feature.content5}</p>
-                      
-                      <Link href="/about/about-dark">
-                        <a className="butn bord curve mt-30">
-                          <span>{feature.buttontext}</span>
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
+          {style === "4item"}
+          {featuresData.map((feature) => (
+            <div
+              key={feature.id}
+              className="col-lg-6 wow fadeInLeft"
+              data-wow-delay={`${
+                feature.id == 1
+                  ? ".5"
+                  : feature.id === 2
+                  ? ".7"
+                  : feature.id === 3
+                  ? ".9"
+                  : "1.1"
+              }s`}
+            >
+              <div className="item-box">
+                <div>
+                  <span className={`icon ${feature.icon}`}></span>
                 </div>
-              ))
-            : // max item 3 in Home page
-              featuresData.slice(0, 3).map((feature) => (
-                <div
-                  key={feature.id}
-                  className="col-lg-6 wow fadeInLeft"
-                  data-wow-delay=".5s"
-                >
-                  <div className="item-box md-mb50">
-                    <span className={`icon ${feature.icon}`}></span>
-                    <h6>{feature.title}</h6>
-                    <p>{feature.content}</p>
-                  </div>
+                <div className="cont">
+                  <h6>{feature.title}</h6>
+                  <p>{feature.content1}</p>
+                  <p>{feature.content2}</p>
+                  <p>{feature.content3}</p>
+                  <p>{feature.content4}</p>
+                  <p>{feature.content5}</p>
+
+                  <Link href="/about/about-dark">
+                    <a className="butn bord curve mt-30">
+                      <span>{feature.buttontext}</span>
+                    </a>
+                  </Link>
                 </div>
-              ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-      
     </section>
   );
 };

@@ -44,9 +44,8 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-          
             <li className="nav-item">
-              <Link href={`/homepage/home1-light`}>
+              <Link href={`/`}>
                 <a className="nav-link">Home</a>
               </Link>
             </li>
@@ -70,7 +69,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </div>
             </li>
             <li className="nav-item">
-              <Link href={`/about/about-light`}>
+              <Link href={`/about-us`}>
                 <a className="nav-link">About</a>
               </Link>
             </li>
@@ -89,8 +88,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">Blogs</a>
               </Link>
             </li>
-          
-         
+
             <li className="nav-item">
               <Link href={`/contact/contact-light`}>
                 <a className="nav-link">Contact</a>

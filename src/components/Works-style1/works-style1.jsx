@@ -11,7 +11,7 @@ const WorksStyle1 = () => {
   }, []);
   return (
     <section className="works section-padding pb-70">
-      <h2 style={{display: 'none'}}>&nbsp;</h2>
+      <h2 style={{ display: "none" }}>&nbsp;</h2>
       <div className="container">
         <div className="row lg-space">
           <div className="col-lg-4 col-md-6">

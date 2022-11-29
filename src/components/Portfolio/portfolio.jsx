@@ -68,7 +68,8 @@ const Portfolio = ({ grid, filterPosition }) => {
               <div className="cont">
                 <h6>Creativity Demand</h6>
                 <span>
-                  <Link href="/works/works-dark">Design</Link>, <Link href="/works/works-dark">WordPress</Link>
+                  <Link href="/works/works-dark">Design</Link>,{" "}
+                  <Link href="/works/works-dark">WordPress</Link>
                 </span>
               </div>
             </div>
