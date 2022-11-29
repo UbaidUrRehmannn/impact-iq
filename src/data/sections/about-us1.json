@@ -1,8 +1,8 @@
 {
   "id": 1,
   "smallTitle": "About Us",
-  "title": "Our Comapny",
-  "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+  "title": "Why chose us:",
+  "content": "eComXelerators is a one stop strategic consulting and Amazon marketing agency assisting clients on and off Amazon. The company aims to help small business owners and online brands that are struggling to keep up with the massive changes in the market maximize their potential as well as expand their reach and scale with amazon marketing and full service account management.",
   "image": "/img/feat.jpg",
   "stauts": [
     { "id": 1, "number": "3", "letter": "K", "stautsName": "Happy Clients" },
