@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar/navbar";
+
 import IntroWithSlider from "../../components/Intro-with-slider/intro-with-slider";
 import AboutUs from "../../components/About-us/about-us";
 import Services from "../../components/Services/services";
@@ -49,6 +50,7 @@ const Homepage = () => {
   }, [fixedSlider, MainContent, navbarRef]);
   return (
     <LightTheme>
+      
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
