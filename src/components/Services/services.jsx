@@ -40,7 +40,8 @@ const Services = ({ style, lines }) => {
             >
               <div className="item-box">
                 <div>
-                  <span className={`icon ${feature.icon}`}></span>
+                  <img className="services-image" src={feature.image} />
+                  {/* <span className={`icon ${feature.icon}`}></span> */}
                 </div>
                 <div className="cont">
                   <h6>{feature.title}</h6>

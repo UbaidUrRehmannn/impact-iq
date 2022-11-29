@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/navbar";
-
+import Head from "next/head";
 import IntroWithSlider from "../components/Intro-with-slider/intro-with-slider";
 import AboutUs from "../components/About-us/about-us";
 import Services from "../components/Services/services";
@@ -49,6 +49,17 @@ const Homepage = () => {
     });
   }, [fixedSlider, MainContent, navbarRef]);
   return (
+    <>
+    <Head>
+        <title>
+        eComXelerators | Strategic Consulting and Amazon Marketing Agency
+        </title>
+        <meta
+          name="description"
+          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+        />
+        {/* <link legacyBehavior rel="icon" href="/fav.png" /> */}
+      </Head>
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
@@ -71,6 +82,8 @@ const Homepage = () => {
         <Footer />
       </div>
     </LightTheme>
+    </>
+
   );
 };
 

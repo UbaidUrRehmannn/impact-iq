@@ -18,7 +18,7 @@ const BlogGrid = ({ blogs }) => {
                   <div className="cont">
                     <div>
                       <div className="info">
-                        <Link href="/blog/blog-dark">
+                        <Link href="/blog-details">
                           <a className="date">
                             <span>
                               <i>{blogItem.date.day}</i>
@@ -28,7 +28,7 @@ const BlogGrid = ({ blogs }) => {
                         </Link>
                         <span>/</span>
                         {blogItem.tags.map((tag, index) => (
-                          <Link key={index} href="/blog/blog-dark/">
+                          <Link key={index} href="/blog-details">
                             <a className="tag">
                               <span>{tag}</span>
                             </a>
@@ -36,12 +36,12 @@ const BlogGrid = ({ blogs }) => {
                         ))}
                       </div>
                       <h5>
-                        <Link href="/blog-details/blog-details-dark">
+                        <Link href="/blog-details">
                           {blogItem.title.substr(0, 55) + "..."}
                         </Link>
                       </h5>
                       <div className="btn-more">
-                        <Link href="/blog-details/blog-details-dark">
+                        <Link href="/blog-details">
                           <a className="simple-btn">Read More</a>
                         </Link>
                       </div>

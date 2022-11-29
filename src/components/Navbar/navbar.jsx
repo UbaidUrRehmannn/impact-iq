@@ -84,13 +84,13 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href={`/blog-grid/blog-grid-light`}>
+              <Link href={`/blogs`}>
                 <a className="nav-link">Blogs</a>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link href={`/contact/contact-light`}>
+              <Link href={`/contact`}>
                 <a className="nav-link">Contact</a>
               </Link>
             </li>

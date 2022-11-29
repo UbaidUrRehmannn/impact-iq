@@ -1,12 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Vie
-    Description: ReactJS Creative Agency & Portfolio template
-    Author: ThemesCamp
-    Author URI: http://themeforest.net/user/ThemesCamp
-    Version: 1.2
-
------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------------
 
 == Table Of Content
@@ -157,7 +148,7 @@ span:hover {
     right top,
     from(#12c2e9),
     color-stop(#c471ed),
-    to(#f64f59)
+    to(#fa8d10)
   );
   background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
@@ -4875,7 +4866,11 @@ span:hover {
   font-size: 13px;
   padding-left: 45px;
 }
-
+.services-image {
+  width: 15%;
+  height: auto;
+  margin-bottom: 3rem;
+}
 /* ====================== [ End services ] ====================== */
 /* ====================== [ Start brands ] ====================== */
 .clients .brands:hover img {
