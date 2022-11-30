@@ -12,7 +12,7 @@ import LightTheme from '../layouts/Light'
 import Team from "../components/Team/team";
 import MinimalArea from "../components/Minimal-Area/minimal-area";
 
-const amazonMarketingServices = () => {
+const BrandManagementServices = () => {
  const navbarRef = React.useRef(null);
  const logoRef = React.useRef(null);
 
@@ -49,4 +49,4 @@ const amazonMarketingServices = () => {
   );
 };
 
-export default amazonMarketingServices;
+export default BrandManagementServices;
