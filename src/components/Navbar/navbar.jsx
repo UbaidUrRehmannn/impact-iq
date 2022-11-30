@@ -60,10 +60,10 @@ const Navbar = ({ lr, nr, theme }) => {
                 Services
               </span>
               <div className="dropdown-menu">
-                <Link href={`/showcase/showcase-light`}>
+                <Link href={`/amazon-marketing-services`}>
                   <a className="dropdown-item">Amazon PPC Management</a>
                 </Link>
-                <Link href={`/showcase4/showcase4-light`}>
+                <Link href={`/brand-management-services`}>
                   <a className="dropdown-item">Amazon Account Management</a>
                 </Link>
               </div>
@@ -73,14 +73,14 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">About</a>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href={`/`}>
                 <a className="nav-link">Case Studies</a>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <Link href={`/works/works-light`}>
-                <a className="nav-link">Works</a>
+              <Link href={`/case-studies`}>
+                <a className="nav-link">Case Studies</a>
               </Link>
             </li>
             <li className="nav-item">

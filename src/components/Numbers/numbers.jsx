@@ -6,9 +6,9 @@ import VisibilitySensor from "react-visibility-sensor";
 
 
 const Numbers = () => {
-  // React.useEffect(() => {
-  //   // console.clear();
-  // })
+  React.useEffect(() => {
+    console.clear();
+  })
     return (
       <section className="number-sec section-padding">
         <div className="container">

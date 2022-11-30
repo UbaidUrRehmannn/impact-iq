@@ -9,6 +9,7 @@
         "content3": "Sponsored Product ads.",
         "content4": "Sponsored Brand ads.",
         "content5": "Sponsored Display ads.",
+        "link": "/amazon-marketing-services",
         "buttontext": "VIEW PPC SERVICES"
     },
     {
@@ -21,6 +22,7 @@
         "content3": "Amazon Product Ranking.",
         "content4": "Listing Optimization.",
         "content5": "EBC / A+ Content.",
+        "link": "/brand-management-services",
         "buttontext": "VIEW MANAGEMENT SERVICES"
 
     }

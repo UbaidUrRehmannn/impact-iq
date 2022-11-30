@@ -9,14 +9,13 @@ const PagesHeader = () => {
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
               <h1 className="color-font fw-700">
-                Our dedicated team of creatives is bursting with talent,
-                experience and passion for what we do.
+                About Us
               </h1>
             </div>
           </div>
-          <div className="col-lg-10">
+          <div className="col-lg-12">
             <div className="img">
-              <img src="/img/slid/about.jpg" alt="" />
+              <img style={{height: '400px'}} src="/img/slid/about.jpg" alt="" />
             </div>
           </div>
         </div>

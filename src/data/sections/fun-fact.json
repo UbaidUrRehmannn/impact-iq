@@ -3,17 +3,17 @@
     "id": 1,
     "icon": "pe-7s-smile",
     "content": "Managed Brand.",
-    "numberfront": "M+",
+    "numberfront": "+",
 
-    "value": "150"
+    "value": "50"
   },
   {
     "id": 2,
     "icon": "pe-7s-portfolio",
     "content": "Under Management",
-    "numberfront": "+",
+    "numberfront": "M+",
 
-    "value": "50"
+    "value": "150"
   },
   {
     "id": 3,

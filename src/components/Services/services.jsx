@@ -30,12 +30,12 @@ const Services = ({ style, lines }) => {
               className="col-lg-6 wow fadeInLeft"
               data-wow-delay={`${
                 feature.id == 1
-                  ? ".5"
+                  ? ".3"
                   : feature.id === 2
                   ? ".7"
                   : feature.id === 3
                   ? ".9"
-                  : "1.1"
+                  : ".9"
               }s`}
             >
               <div className="item-box">
@@ -51,7 +51,7 @@ const Services = ({ style, lines }) => {
                   <p>{feature.content4}</p>
                   <p>{feature.content5}</p>
 
-                  <Link href="/about/about-dark">
+                  <Link href={feature.link}>
                     <a className="butn bord curve mt-30">
                       <span>{feature.buttontext}</span>
                     </a>
