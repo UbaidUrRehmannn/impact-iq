@@ -25,6 +25,7 @@ const ContactForm = () => {
                 initialValues={{
                   name: "",
                   email: "",
+                  phone: "",
                   message: "",
                 }}
                 onSubmit={async (values) => {
@@ -54,6 +55,15 @@ const ContactForm = () => {
                           type="text"
                           name="name"
                           placeholder="Name"
+                          required="required"
+                        />
+                      </div>
+                      <div className="form-group">
+                        <Field
+                          id="form_name"
+                          type="number"
+                          name="phone"
+                          placeholder="Phone Number"
                           required="required"
                         />
                       </div>

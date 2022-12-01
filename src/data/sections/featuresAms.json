@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "image": "/img/service-2.svg",
+    "title": "Fix Existing Ad Campaigns",
+    "content1": "Your sponsored product listings are the key to sales. If they're not pulling their weight, they're useless. We fully optimize your listings before we push traffic to them."
+  },
+
+  {
+    "id": 2,
+    "image": "/img/service-2.svg",
+    "title": "Build Customized PPC Strategies",
+    "content1": "We know that no two businesses are the same, which is why we create individual sponsored ad campaigns catered to your brands needs."
+  },
+  {
+    "id": 3,
+    "image": "/img/service-2.svg",
+    "title": "Maximize ROAS",
+    "content1": "We make tweaks to your sponsored ad campaigns to increase the return you get on your ad spend and reduce overall costs."
+  },
+  {
+    "id": 4,
+    "image": "/img/service-2.svg",
+    "title": "Improve Organic Ranking",
+    "content1": "Magic doesn't happen overnight. We constantly track, tweak, measure, and optimize your PPC campaigns to reduce ACOS and make sure all sponsored ads are performing at their best."
+  },
+  {
+    "id": 5,
+    "image": "/img/service-2.svg",
+    "title": "Analyze and Monitor Campaigns",
+    "content1": "We make tweaks to your sponsored ad campaigns to increase the return you get on your ad spend and reduce overall costs."
+  },
+  {
+    "id": 6,
+    "image": "/img/service-2.svg",
+    "title": "Manage All Amazon Sponsored Ads",
+    "content1": "We oversee the entire PPC campaign process from start to finish and help you create high-converting sponsored product ads, sponsored brand ads, product display ads, and video ads"
+  },
+  {
+    "id": 7,
+    "image": "/img/service-2.svg",
+    "title": "Identify Incremental Sales Opportunities",
+    "content1": "We dig into your data and find key components that can be optimized to increase sales.."
+  },
+  {
+    "id": 8,
+    "image": "/img/service-2.svg",
+    "title": "Reduce ACOS, Improve ROI",
+    "content1": "We'll run a health check on your existing PPC campaigns to gain insight on what's working and what's not before starting new campaigns."
+  },
+  {
+    "id": 9,
+    "image": "/img/service-2.svg",
+    "title": "Building a Sustainable Brand",
+    "content1": "Sustainability begins with optimizing your product listings and identifying relevant and profitable traffic to send to your sponsored product campaigns."
+  },
+  {
+    "id": 10,
+    "image": "/img/service-2.svg",
+    "title": "Increase Sales & Scalability",
+    "content1": "We know what makes sponsored product listings convert. Not only do we ensure your PPC campaigns are reaching the right people, but we optimize your product pages to improve ranking, relevancy and brand scalability."
+  }
+]

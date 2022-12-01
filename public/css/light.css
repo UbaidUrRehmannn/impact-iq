@@ -7973,7 +7973,7 @@ span:hover {
 
 .contact .form input,
 .contact .form textarea {
-  color: #fff;
+  /* color: #fff; */
   width: 100%;
   padding: 15px 0;
   background: transparent;
