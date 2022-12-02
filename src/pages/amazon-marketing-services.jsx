@@ -8,30 +8,30 @@ import CallToAction from "../components/Call-to-action/call-to-action";
 import Footer from "../components/Footer/footer";
 import PagesHeader from "../components/amazon-marketing-services";
 import AboutIntro from "../components/About-ams-intro";
-import LightTheme from '../layouts/Light'
+import LightTheme from "../layouts/Light";
 import Team from "../components/Team/team";
 import MinimalArea from "../components/Minimal-Area/minimal-area";
 
 const AmazonMarketingServices = () => {
- const navbarRef = React.useRef(null);
- const logoRef = React.useRef(null);
+  const navbarRef = React.useRef(null);
+  const logoRef = React.useRef(null);
 
- React.useEffect(() => {
-   var navbar = navbarRef.current,
-     logo = logoRef.current;
-   if (window.pageYOffset > 300) {
-     navbar.classList.add("nav-scroll");
-   } else {
-     navbar.classList.remove("nav-scroll");
-   }
-   window.addEventListener("scroll", () => {
-     if (window.pageYOffset > 300) {
-       navbar.classList.add("nav-scroll");
-     } else {
-       navbar.classList.remove("nav-scroll");
-     }
-   });
- }, [navbarRef]);
+  React.useEffect(() => {
+    var navbar = navbarRef.current,
+      logo = logoRef.current;
+    if (window.pageYOffset > 300) {
+      navbar.classList.add("nav-scroll");
+    } else {
+      navbar.classList.remove("nav-scroll");
+    }
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        navbar.classList.add("nav-scroll");
+      } else {
+        navbar.classList.remove("nav-scroll");
+      }
+    });
+  }, [navbarRef]);
   return (
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
@@ -39,8 +39,10 @@ const AmazonMarketingServices = () => {
       <AboutIntro />
       <Services style="4item" />
       <VideoWithTestimonials />
-      <SkillsCircle from="aboutPage" />
-      <Team />
+      {/* <SkillsCircle from="aboutPage" /> */}
+      <div className="mt-70">
+        <Team />
+      </div>
       <MinimalArea />
       <Clients theme="light" />
       <CallToAction />

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "image": "/img/service-2.svg",
+    "title": "Amazon Listing Optimization to Improve Ranking",
+    "content1": "We use your brand identity to create highly engaging, authentic, and cohesive content that keeps buyers on your listings longer and converts traffic into sales."
+  },
+
+  {
+    "id": 2,
+    "image": "/img/service-2.svg",
+    "title": "End to end Amazon Account Management Service",
+    "content1": "Along with ensuring that your brand story is consistent across your Amazon Product Listings, we protect your brand with end-to-end compliance and customer satisfaction."
+  },
+  {
+    "id": 3,
+    "image": "/img/service-2.svg",
+    "title": "Amazon Brand Advertising",
+    "content1": "Our team utilizes a mix of advertising strategies across different Amazon ad types to drive more traffic to your listings and maximize your ROI."
+  },
+  {
+    "id": 4,
+    "image": "/img/service-2.svg",
+    "title": "Brand Supply Chain Management",
+    "content1": "As a retailer, we understand the value of inventory efficiency. We help you to maximize your performance, minimize costs, and ensure you stay in stock based on demand, seasonality, and more."
+  }
+]

@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about-us": [
+    "/brand-management-services": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about-us.js"
-    ],
-    "/amazon-marketing-services": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/amazon-marketing-services.js"
+      "static/chunks/pages/brand-management-services.js"
     ]
   },
   "ampFirstPages": []

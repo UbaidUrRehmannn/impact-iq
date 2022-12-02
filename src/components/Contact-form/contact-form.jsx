@@ -38,11 +38,12 @@ const ContactForm = () => {
                   // Reset the values
                   values.name = "";
                   values.email = "";
+                  values.phone = "";
                   values.message = "";
                   // clear message
                   setTimeout(() => {
-                    messageRef.current.innerText = ''
-                  }, 2000)
+                    messageRef.current.innerText = "";
+                  }, 2000);
                 }}
               >
                 {({ errors, touched }) => (
@@ -61,7 +62,7 @@ const ContactForm = () => {
                       <div className="form-group">
                         <Field
                           id="form_name"
-                          type="number"
+                          type="text"
                           name="phone"
                           placeholder="Phone Number"
                           required="required"

@@ -9,13 +9,13 @@ const PagesHeader = () => {
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
               <h1 className="color-font fw-700">
-              Brand Management Services
+              Amazon Account Management 
               </h1>
             </div>
           </div>
           <div className="col-lg-10">
             <div className="img">
-              <img src="/img/slid/about.jpg" alt="" />
+              <img src="/img/slid/aboutbms.jpg" alt="" />
             </div>
           </div>
         </div>
