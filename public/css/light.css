@@ -206,6 +206,16 @@ span:hover {
 }
 
 /* ====================== [ End Typography  ] ====================== */
+/* ====================== [ Custom CSS Classes Starts  ] ====================== */
+.custom-bms-list{
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 40px;
+}
+.custom-bms-li-items{
+  list-style: disc !important;
+}
+/* ====================== [ Custom CSS Classes Ends  ] ====================== */
 /* ====================== [ Start Helper Classes  ] ====================== */
 .o-hidden {
   overflow: hidden;
@@ -1671,13 +1681,13 @@ span:hover {
 
 .butn.bord {
   color: #ffffff;
-  background: linear-gradient(90deg, #002c67, #29b3fe);
+  background-color: linear-gradient(90deg, #002c67, #29b3fe);
   border: none !important;
-
+transition: 3s;
 }
 
 .butn.bord:hover {
-  background: linear-gradient(90deg, #29b3fe, #002c67);
+  background-color: linear-gradient(90deg, #29b3fe, #002c67);
   box-shadow: none;
   border: none !important;
   color: #ffffff;

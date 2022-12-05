@@ -26,7 +26,7 @@ const Services = ({ style, lines }) => {
           {featuresData.map((feature) => (
             <div
               key={feature.id}
-              className="col-lg-6 wow fadeInLeft"
+              className="col-lg-12 wow fadeInLeft"
               data-wow-delay={`${
                 feature.id == 1
                   ? ".3"
@@ -34,7 +34,7 @@ const Services = ({ style, lines }) => {
                   ? ".7"
                   : feature.id === 3
                   ? ".9"
-                  : ".9"
+                  : "1.1"
               }s`}
             >
               <div className="item-box">
@@ -45,9 +45,27 @@ const Services = ({ style, lines }) => {
                 <div className="cont">
                   <h6>{feature.title}</h6>
                   <p>{feature.content1}</p>
-                  
-
-                  
+                  {/* <p>{feature.list}</p> */}
+                  <div className="custom-bms-list">
+                    <div>
+                      <ul>
+                        <li>
+                          {feature.list.map((a) => {
+                            return <li key={feature.id} className="custom-bms-li-items" >{a}</li>;
+                          })}
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>
+                          {feature.list2.map((a) => {
+                            return <li key={feature.id} className="custom-bms-li-items">{a}</li>;
+                          })}
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

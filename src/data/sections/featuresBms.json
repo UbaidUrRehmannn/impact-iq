@@ -3,25 +3,85 @@
     "id": 1,
     "image": "/img/service-2.svg",
     "title": "Amazon Listing Optimization to Improve Ranking",
-    "content1": "We use your brand identity to create highly engaging, authentic, and cohesive content that keeps buyers on your listings longer and converts traffic into sales."
+    "content1": "We use your brand identity to create highly engaging, authentic, and cohesive content that keeps buyers on your listings longer and converts traffic into sales.",
+    "list": [
+      "Infographics to Explain Product",
+      "Usability and Core Value Propositions",
+      "Product Listing Frontend/Backend Optimization",
+      "Keyword-Optimized Copywriting",
+      "Animated & Lifestyle Video",
+      "Product Variation Updates",
+      "Keywords Rank checking"
+    ],
+    "list2": [
+      "Market Trends Analysis",
+      "Search term Optimizer",
+      "A+ Content/AB Testing",
+      "Platform Branding",
+      "Storefront setup",
+      "Title AB Testing"
+    ]
   },
 
   {
     "id": 2,
     "image": "/img/service-2.svg",
     "title": "End to end Amazon Account Management Service",
-    "content1": "Along with ensuring that your brand story is consistent across your Amazon Product Listings, we protect your brand with end-to-end compliance and customer satisfaction."
+    "content1": "Along with ensuring that your brand story is consistent across your Amazon Product Listings, we protect your brand with end-to-end compliance and customer satisfaction.",
+    "list": [
+      "Daily Reviews and Feedbacks Monitoring and Brand Management",
+      "Reimbursement & reconcile Cases/ Misc. Cases",
+      "Hijackers checking & infringement/C&D cases",
+      "Daily listings Overview (Frontend + Backend)",
+      "Returns & Refunds Management",
+      "Unauthorized Seller Reduction",
+      "Review requests to buyers"
+    ],
+    "list2": [
+      "Product Packaging Inserts",
+      "Brand Registry Set-Up",
+      "Competitor Analysis",
+      "Content Monitoring",
+      "Order Management",
+      "Pricing Protection",
+      "Virtual Bundle"
+    ]
   },
   {
     "id": 3,
     "image": "/img/service-2.svg",
     "title": "Amazon Brand Advertising",
-    "content1": "Our team utilizes a mix of advertising strategies across different Amazon ad types to drive more traffic to your listings and maximize your ROI."
+    "content1": "Our team utilizes a mix of advertising strategies across different Amazon ad types to drive more traffic to your listings and maximize your ROI.",
+    "list": [
+      "Promotions/Coupons/Giveaways Creation & Management",
+      "Paid Advertising Management",
+      "Sponsored Brands Video",
+      "Performance Analytics",
+      "Custom Promotions"
+    ],
+    "list2": [
+      "Amazon Storefronts",
+      "Sponsored Products Ads",
+      "Sponsored Display Ads",
+      "Sponsored Brands Ads",
+      "Amazon Posts"
+    ]
   },
   {
     "id": 4,
     "image": "/img/service-2.svg",
     "title": "Brand Supply Chain Management",
-    "content1": "As a retailer, we understand the value of inventory efficiency. We help you to maximize your performance, minimize costs, and ensure you stay in stock based on demand, seasonality, and more."
+    "content1": "As a retailer, we understand the value of inventory efficiency. We help you to maximize your performance, minimize costs, and ensure you stay in stock based on demand, seasonality, and more.",
+    "list": [
+      "Inventory Forecasting & Seasonality",
+      "Amazon Claim Management",
+      "Reorder Recommendations",
+      "Shipping Setup"
+    ],
+    "list2": [
+      "Amazon Product Dimensions",
+      "USPS First Class vs Priority",
+      "Priority Mail vs First Class"
+    ]
   }
 ]
