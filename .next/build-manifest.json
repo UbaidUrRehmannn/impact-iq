@@ -15,6 +15,16 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
+    "/404": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/404.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -25,15 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/brand-management-services": [
+    "/about-us": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/brand-management-services.js"
-    ],
-    "/contact": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
+      "static/chunks/pages/about-us.js"
     ]
   },
   "ampFirstPages": []

@@ -45,7 +45,7 @@ const Services = ({ style, lines }) => {
                 </div>
                 <div className="cont">
                   <h6>{feature.title}</h6>
-                  {feature.content.map((a) => {return <p>{a}</p>})}
+                  {feature.content.map((a) => {return <p  key={feature.id}>{a}</p>})}
                   {/* <p>{feature.content1}</p>
                   <p>{feature.content2}</p>
                   <p>{feature.content3}</p>

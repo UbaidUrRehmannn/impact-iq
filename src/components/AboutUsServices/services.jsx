@@ -48,11 +48,12 @@ const Services = ({ style, lines }) => {
                 </div>
                 <div className="cont">
                   <h6>{feature.title}</h6>
-                  <p>{feature.content1}</p>
+                  {feature.content.map((a) => {return <p  key={feature.id}>{a}</p>})}
+                  {/* <p>{feature.content1}</p>
                   <p>{feature.content2}</p>
                   <p>{feature.content3}</p>
                   <p>{feature.content4}</p>
-                  <p>{feature.content5}</p>
+                  <p>{feature.content5}</p> */}
 
                   <Link href={feature.link}>
                     <a className="butn bord curve mt-30">
