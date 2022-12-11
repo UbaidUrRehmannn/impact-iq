@@ -53,7 +53,7 @@ const Services = ({ style, lines }) => {
                   <p>{feature.content5}</p> */}
 
                   <Link href={feature.link}>
-                    <a className="butn bord curve mt-30">
+                    <a className="custom-home butn bord curve mt-30">
                       <span>{feature.buttontext}</span>
                     </a>
                   </Link>

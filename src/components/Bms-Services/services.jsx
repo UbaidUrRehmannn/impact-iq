@@ -46,12 +46,19 @@ const Services = ({ style, lines }) => {
                   <h6>{feature.title}</h6>
                   <p>{feature.content1}</p>
                   {/* <p>{feature.list}</p> */}
-                  <div className="custom-bms-list">
+                  <div className="custom-bms-list ">
                     <div>
                       <ul>
                         <li>
                           {feature.list.map((a) => {
-                            return <li key={feature.id} className="custom-bms-li-items" >{a}</li>;
+                            return (
+                              <li
+                                key={feature.id}
+                                className="custom-bms-li-items"
+                              >
+                                {a}
+                              </li>
+                            );
                           })}
                         </li>
                       </ul>
@@ -60,7 +67,14 @@ const Services = ({ style, lines }) => {
                       <ul>
                         <li>
                           {feature.list2.map((a) => {
-                            return <li key={feature.id} className="custom-bms-li-items">{a}</li>;
+                            return (
+                              <li
+                                key={feature.id}
+                                className="custom-bms-li-items"
+                              >
+                                {a}
+                              </li>
+                            );
                           })}
                         </li>
                       </ul>

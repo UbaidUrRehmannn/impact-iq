@@ -1681,13 +1681,27 @@ span:hover {
 
 .butn.bord {
   color: #ffffff;
-  background-color: linear-gradient(90deg, #002c67, #29b3fe);
+  background: linear-gradient(90deg, #002c67, #29b3fe) !important;
   border: none !important;
 transition: 3s;
 }
 
 .butn.bord:hover {
-  background-color: linear-gradient(90deg, #29b3fe, #002c67);
+  background: linear-gradient(90deg, #29b3fe, #002c67) !important;
+  box-shadow: none;
+  border: none !important;
+  color: #ffffff;
+ 
+}
+.butn.bord.custom-home {
+  color: #ffffff;
+  background: linear-gradient(90deg, #f57706, #29b3fe) !important;
+  border: none !important;
+transition: 3s;
+}
+
+.butn.bord.custom-home:hover {
+  background: linear-gradient(90deg, #29b3fe, #f57706) !important;
   box-shadow: none;
   border: none !important;
   color: #ffffff;
@@ -9248,5 +9262,13 @@ section.next-prog.section-padding {
 
   a.col-md-12.popimg {
     padding: 0;
+  }
+}
+@media (max-width: 500px){
+  .custom-bms-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
   }
 }
