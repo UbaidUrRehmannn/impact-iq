@@ -10,6 +10,7 @@ const LightTheme = ({ children, mobileappstyle }) => {
     <>
       <Head>
         <link rel="stylesheet" href="/css/light.css" />
+        <link rel="stylesheet" href="/css/custom.css" />
         {mobileappstyle ? (
           <link href="/css/mobile-app-light.css" rel="stylesheet" />
         ) : (

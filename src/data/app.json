@@ -1,5 +1,6 @@
 {
-    "lightLogo": "/img/logo-light.png",
-    "darkLogo": "/img/logo-dark.png",
+    "lightLogo": "/img/logo-light.svg",
+    "darkLogo": "/img/logo-dark.svg",
     "showLoading": true
 }
+

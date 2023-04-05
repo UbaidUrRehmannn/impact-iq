@@ -52,7 +52,7 @@ const Homepage = () => {
     <>
     <Head>
         <title>
-        eComXelerators | Strategic Consulting and Amazon Marketing Agency
+        ImpactIQ | Impacting The Digital Tomorrow
         </title>
         <meta
           name="description"

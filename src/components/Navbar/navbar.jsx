@@ -17,12 +17,12 @@ const Navbar = ({ lr, nr, theme }) => {
           <a className="logo">
             {theme ? (
               theme === "themeL" ? (
-                <img ref={lr} src={appData.darkLogo} alt="logo" />
+                <img className="main-logo" ref={lr} src={appData.darkLogo} alt="logo" />
               ) : (
-                <img ref={lr} src={appData.lightLogo} alt="logo" />
-              )
+                <img className="main-logo" ref={lr} src={appData.lightLogo} alt="logo" />
+              ) 
             ) : (
-              <img ref={lr} src={appData.lightLogo} alt="logo" />
+              <img className="main-logo" ref={lr} src={appData.lightLogo} alt="logo" />
             )}
           </a>
         </Link>
